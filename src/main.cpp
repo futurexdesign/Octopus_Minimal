@@ -5,7 +5,7 @@ bool LED = false;
 
 void setup() {
     Serial.begin(115200);
-    pinMode(LED, FAN_OUTPUT);
+    pinMode(FAN_OUTPUT, OUTPUT);
 }
 
 void loop() {
